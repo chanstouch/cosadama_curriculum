@@ -1,0 +1,6 @@
+name: '웹 크롤링 심화'
+description: '느리고 답답한 웹 크롤링은 그만, 현존 최강 웹 크롤러 Scrapy에 대해 배워봅니다.'
+authors: '김민석, 신윤진, 송혜민'
+slug: python
+image: scrapy.png
+order: 3

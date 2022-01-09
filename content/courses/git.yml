@@ -1,0 +1,6 @@
+name: '깃, 깃헙 기초'
+description: 버전관리 협업툴의 처음이자 끝, 깃과 깃헙의 기초적인 사용법을 공부합니다.
+authors: '조용주, 김가윤'
+slug: python
+image: git.png
+order: 4
