@@ -18,7 +18,7 @@
         <CourseHeader />
 
         <div class="max-w-5xl pt-10 pb-24 px-5 mx-auto">
-            <p class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-6 text-2xl text-gray-800 title font-semibold">{{python.slug}}. {{python.title}}</p>
+            <p class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-8 text-3xl text-gray-800 title font-semibold">{{python.slug}}. {{python.title}}</p>
 
             <nuxt-content :document="python" class="prose max-w-5xl custom-text"/>
         </div>
