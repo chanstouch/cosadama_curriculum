@@ -12,7 +12,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_1}}</div>
 
                 <div v-for='list of list_1' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -27,7 +27,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_2}}</div>
 
                 <div v-for='list of list_2' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -42,7 +42,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_3}}</div>
 
                 <div v-for='list of list_3' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -57,7 +57,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_4}}</div>
 
                 <div v-for='list of list_4' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -72,7 +72,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_5}}</div>
 
                 <div v-for='list of list_5' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -87,7 +87,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_6}}</div>
 
                 <div v-for='list of list_6' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -102,7 +102,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_7}}</div>
 
                 <div v-for='list of list_7' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -117,7 +117,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_8}}</div>
 
                 <div v-for='list of list_2' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -132,7 +132,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_9}}</div>
 
                 <div v-for='list of list_9' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -147,7 +147,7 @@
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_10}}</div>
 
                 <div v-for='list of list_10' :key="list" class="pl-5">
-                        <nuxt-link :to='`${list.slug}`'>
+                        <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                 {{list.slug}}. {{list.title}}
@@ -214,7 +214,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_1}}</div>
 
                             <div v-for='list of list_1' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
@@ -229,7 +229,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_2}}</div>
 
                             <div v-for='list of list_2' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
@@ -244,7 +244,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_3}}</div>
 
                             <div v-for='list of list_3' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
@@ -259,7 +259,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_4}}</div>
 
                             <div v-for='list of list_4' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
@@ -274,7 +274,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_5}}</div>
 
                             <div v-for='list of list_5' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
@@ -289,7 +289,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_6}}</div>
 
                             <div v-for='list of list_6' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
@@ -304,7 +304,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_7}}</div>
 
                             <div v-for='list of list_7' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
@@ -319,7 +319,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_8}}</div>
 
                             <div v-for='list of list_2' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
@@ -334,7 +334,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_9}}</div>
 
                             <div v-for='list of list_9' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
@@ -349,7 +349,7 @@
                             <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_10}}</div>
 
                             <div v-for='list of list_10' :key="list" class="pl-5">
-                                    <nuxt-link :to='`${list.slug}`'>
+                                    <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}

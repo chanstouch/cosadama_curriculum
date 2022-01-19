@@ -2,7 +2,7 @@
             <div class="flex justify-between pt-8 px-3 border-t border-slate-400 mt-10">
                 <div class="w-1/2 py-1">
                 <NuxtLink v-if="prev" :to="{path: `/${currititle}/${prev.slug}`}" replace>
-                    <div class="text-slate-600 hover:underline text-sm md:text-base">
+                    <div class="text-slate-600 hover:underline text-sm md:text-base keep-all">
                     <!-- <span class="hidden md:inline"></span> -->
                     {{prev.slug}}. {{ prev.title }}
                     </div>
@@ -16,7 +16,7 @@
                 </div>
                 <div class="w-1/2 py-1">
                 <NuxtLink v-if="next" :to="{path: `/${currititle}/${next.slug}`}" replace>
-                    <div class="text-slate-600 hover:underline text-sm md:text-base text-right">
+                    <div class="text-slate-600 hover:underline text-sm md:text-base text-right keep-all">
                     {{next.slug}}. {{ next.title }} 
                     <!-- <span class="hidden md:inline"></span> -->
                     </div>
@@ -43,7 +43,7 @@ export default {
       default: () => null,
     },
     currititle: {
-      type: Object,
+      type: String,
       default: () => null,
     },
   },
@@ -51,4 +51,7 @@ export default {
 </script>
 
 <style scoped>
+.keep-all{
+    word-break: keep-all;
+}
 </style>
