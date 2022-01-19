@@ -374,6 +374,9 @@
             <p class="custom-text leading-normal mb-8 text-3xl text-slate-800 font-semibold">{{python.title}}</p>
 
             <nuxt-content :document="python" class="prose max-w-5xl custom-text"/>
+
+            <Prevnext :prev="prev" :next="next" :currititle="currititle" />
+
         </div>
     </div>
 
@@ -415,6 +418,8 @@ async asyncData({ $content, params }) {
         const currilist = await $content('courses')
         .where({slug: 'python'})
         .fetch();
+
+        const currititle = currilist[0]["slug"]
 
         const cat_1 = currilist[0]["category"][0]
         const cat_2 = currilist[0]["category"][1]
@@ -477,9 +482,16 @@ async asyncData({ $content, params }) {
         .sortBy('slug', 'asc')
         .fetch();
 
+        const [prev, next] = await $content('python')
+        .only(['title', 'slug'])
+        .sortBy('slug', 'asc')
+        .surround(params.slug)
+        .fetch();
+
         return { python, currilist, 
         cat_1, cat_2, cat_3, cat_4, cat_5, cat_6, cat_7, cat_8, cat_9, cat_10,
-        list_1, list_2, list_3, list_4, list_5, list_6, list_7, list_8, list_9, list_10
+        list_1, list_2, list_3, list_4, list_5, list_6, list_7, list_8, list_9, list_10,
+        prev, next, currititle
         }
     }
 }
