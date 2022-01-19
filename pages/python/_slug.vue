@@ -1,7 +1,7 @@
 <template>
 <div class="flex">
 
-    <div class="hidden md:block w-80 min-w-max py-10 px-8 border-r border-slate-600">
+    <div class="hidden md:block w-80 min-w-max py-10 px-8 border-r border-slate-600 min-h-screen">
 
         <div class="font-semibold text-slate-600 text-xl mb-4">{{currilist[0]["name"]}}</div>
 
