@@ -420,7 +420,7 @@ export default {
         });
     },
 async asyncData({ $content, params }) {
-        const curriculumName = 'python';
+        const curriculumName = 'intro-ds';
 
         const curriname = await $content(curriculumName, params.slug)
         .fetch();
