@@ -159,7 +159,7 @@
 
         </div>
 
-        <div class="pt-3.5 text-sm text-slate-400">커리 개발: {{currilist[0]["authors"][0]}} {{currilist[0]["authors"][1]}}</div>
+        <div class="pt-3.5 text-sm text-slate-400">커리 개발: {{currilist[0]["authors"][0]}} {{currilist[0]["authors"][1]}} {{currilist[0]["authors"][2]}} {{currilist[0]["authors"][3]}}</div>
 
     </div>
 
@@ -205,18 +205,18 @@
                 </div>
 
                 <div class="px-4">
-                    <div class="font-semibold text-slate-600 pt-10 text-xl mb-4">{{currilist[0]["name"]}}</div>
+                    <div class="font-semibold text-slate-600 pt-10 text-lg mb-4">{{currilist[0]["name"]}}</div>
 
                     <div>
 
                         <div v-if="cat_1==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_1}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_1}}</div>
 
                             <div v-for='list of list_1' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -226,12 +226,12 @@
 
                         <div v-if="cat_2==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_2}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_2}}</div>
 
                             <div v-for='list of list_2' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -241,12 +241,12 @@
 
                         <div v-if="cat_3==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_3}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_3}}</div>
 
                             <div v-for='list of list_3' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -256,12 +256,12 @@
 
                         <div v-if="cat_4==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_4}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_4}}</div>
 
                             <div v-for='list of list_4' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -271,12 +271,12 @@
 
                         <div v-if="cat_5==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_5}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_5}}</div>
 
                             <div v-for='list of list_5' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -286,12 +286,12 @@
 
                         <div v-if="cat_6==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_6}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_6}}</div>
 
                             <div v-for='list of list_6' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -301,12 +301,12 @@
 
                         <div v-if="cat_7==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_7}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_7}}</div>
 
                             <div v-for='list of list_7' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -316,12 +316,12 @@
 
                         <div v-if="cat_8==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_8}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_8}}</div>
 
                             <div v-for='list of list_2' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -331,12 +331,12 @@
 
                         <div v-if="cat_9==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_9}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_9}}</div>
 
                             <div v-for='list of list_9' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -346,12 +346,12 @@
 
                         <div v-if="cat_10==null"></div>
                         <div v-else>
-                            <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_10}}</div>
+                            <div class="font-medium text-slate-600 mb-2.5">{{cat_10}}</div>
 
                             <div v-for='list of list_10' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
-                                        <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
+                                        <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
                                             {{list.slug}}. {{list.title}}
                                         </div>
                                     </div>
@@ -361,7 +361,7 @@
 
                     </div>
 
-                    <div class="pt-3.5 text-sm text-slate-400">커리 개발: {{currilist[0]["authors"][0]}} {{currilist[0]["authors"][1]}}</div>
+                    <div class="pt-3.5 text-sm text-slate-400 mb-10">커리 개발: {{currilist[0]["authors"][0]}} {{currilist[0]["authors"][1]}} {{currilist[0]["authors"][2]}} {{currilist[0]["authors"][3]}}</div>
                 </div>
 
             </aside>
@@ -370,10 +370,14 @@
         <!-- 커리큘럼  -->
 
         <div class="max-w-5xl pt-8 pb-24 px-6 md:px-11 mx-auto">
-            <p class="custom-text leading-normal mb-6 text-lg text-slate-600 font-medium">{{python.category}} > {{python.slug}}. {{python.title}}</p>
-            <p class="custom-text leading-normal mb-8 text-3xl text-slate-800 font-semibold">{{python.title}}</p>
+            <p class="custom-text leading-normal mb-6 text-base md:text-lg text-slate-600 font-medium">{{curriname.category}} > {{curriname.slug}}. {{curriname.title}}</p>
+            <p class="custom-text leading-normal mb-8 text-2xl md:text-3xl text-slate-800 font-semibold">{{curriname.title}}</p>
 
-            <nuxt-content :document="python" class="prose max-w-5xl custom-text"/>
+            <nuxt-content :document="curriname" class="prose max-w-5xl custom-text"/>
+
+            <div class="text-right mt-8 mb-6 px-2 text-xs md:text-sm text-slate-400">
+                마지막으로 업데이트 된 날짜: <br class="block md:hidden" /> {{formatDate(curriname.updatedAt)}}
+            </div>
 
             <Prevnext :prev="prev" :next="next" :currititle="currititle" />
 
@@ -393,6 +397,10 @@ export default {
     methods: {
         drawer() {
         this.isOpen = !this.isOpen;
+        },
+        formatDate(date) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' }
+        return new Date(date).toLocaleDateString('ko', options)
         }
     },
     watch: {
@@ -412,7 +420,7 @@ export default {
         });
     },
 async asyncData({ $content, params }) {
-        const python = await $content('python', params.slug)
+        const curriname = await $content('python', params.slug)
         .fetch();
 
         const currilist = await $content('courses')
@@ -488,12 +496,56 @@ async asyncData({ $content, params }) {
         .surround(params.slug)
         .fetch();
 
-        return { python, currilist, 
+        return { curriname, currilist, 
         cat_1, cat_2, cat_3, cat_4, cat_5, cat_6, cat_7, cat_8, cat_9, cat_10,
         list_1, list_2, list_3, list_4, list_5, list_6, list_7, list_8, list_9, list_10,
         prev, next, currititle
         }
-    }
+    },
+
+    head() {
+        return {
+            title: this.curriname.title,
+            htmlAttrs: {
+            lang: 'ko'
+            },
+            meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            {
+                hid: 't-type',
+                name: 'twitter:card',
+                content: 'summary_large_image'
+            },
+            {
+            hid: 'og-type',
+            property: 'og:type',
+            content: 'website'
+            },
+            {
+            hid: 'og:title',
+            property: 'og:title',
+            content: this.curriname.title
+            },
+            {
+            hid: 'og:image',
+            property: 'og:image',
+            // content: this.article.img
+            content: 'https://www.curriculum.cosadama.com/og-image.png'
+            },
+            {
+            hid: 'og:image:secure_url',
+            property: 'og:image:secure_url',
+            content: 'https://www.curriculum.cosadama.com/og-image.png'
+            },
+            {
+            hid: 'og:image:alt',
+            property: 'og:image:alt',
+            content: this.curriname.title
+            },
+            ],
+        }
+    },
 }
 </script>
 
