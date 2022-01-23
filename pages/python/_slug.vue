@@ -531,22 +531,22 @@ async asyncData({ $content, params }) {
             hid: 'og:image',
             property: 'og:image',
             // content: this.article.img
-            content: `https://raw.githubusercontent.com/Team-COSADAMA/Curriculum/main/assets/resources/thumbnails/${currititle}.png`
+            content: `https://raw.githubusercontent.com/Team-COSADAMA/Curriculum/main/assets/resources/thumbnails/${this.currititle}.png`
             },
             {
             hid: 'og:image:secure_url',
             property: 'og:image:secure_url',
-            content: `https://raw.githubusercontent.com/Team-COSADAMA/Curriculum/main/assets/resources/thumbnails/${currititle}.png`
+            content: `https://raw.githubusercontent.com/Team-COSADAMA/Curriculum/main/assets/resources/thumbnails/${this.currititle}.png`
             },
             {
             hid: 'og:image:alt',
             property: 'og:image:alt',
-            content: `${currititle} image`
+            content: `${this.currititle} image`
             },
             {
             hid: 'og:url',
             name: 'og:url',
-            content: `https://www.blog.penielcho.com/${currititle}/${this.$route.params.slug}`
+            content: `https://www.blog.penielcho.com/${this.currititle}/${this.$route.params.slug}`
             },
             ],
         }
