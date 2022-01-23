@@ -43,12 +43,12 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://www.curriculum.cosadama.com/og-image.png'
+        content: 'https://raw.githubusercontent.com/Team-COSADAMA/Curriculum/main/static/og_image.png'
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: 'https://www.curriculum.cosadama.com/og-image.png'
+        content: 'https://raw.githubusercontent.com/Team-COSADAMA/Curriculum/main/static/og_image.png'
       },
       {
         hid: 'og:image:alt',

@@ -531,17 +531,17 @@ async asyncData({ $content, params }) {
             hid: 'og:image',
             property: 'og:image',
             // content: this.article.img
-            content: 'https://www.curriculum.cosadama.com/og-image.png'
+            content: `https://raw.githubusercontent.com/Team-COSADAMA/Curriculum/main/assets/resources/thumbnails/${currititle}.png`
             },
             {
             hid: 'og:image:secure_url',
             property: 'og:image:secure_url',
-            content: 'https://www.curriculum.cosadama.com/og-image.png'
+            content: `https://raw.githubusercontent.com/Team-COSADAMA/Curriculum/main/assets/resources/thumbnails/${currititle}.png`
             },
             {
             hid: 'og:image:alt',
             property: 'og:image:alt',
-            content: this.curriname.title
+            content: `${currititle} image`
             },
             ],
         }
