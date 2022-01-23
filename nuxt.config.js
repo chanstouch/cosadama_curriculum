@@ -58,11 +58,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      {
-        hid: 'canonical',
-        rel: 'canonical',
-        href: `https://www.curriculum.cosadama.com`
-      }
     ]
   },
 

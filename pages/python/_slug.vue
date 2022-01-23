@@ -541,7 +541,7 @@ async asyncData({ $content, params }) {
             {
             hid: 'og:image:alt',
             property: 'og:image:alt',
-            content: `${this.currititle} image`
+            content: 'curriculum image'
             },
             {
             hid: 'og:url',
