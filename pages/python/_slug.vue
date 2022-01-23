@@ -543,6 +543,11 @@ async asyncData({ $content, params }) {
             property: 'og:image:alt',
             content: `${currititle} image`
             },
+            {
+            hid: 'og:url',
+            name: 'og:url',
+            content: `https://www.blog.penielcho.com/${currititle}/${this.$route.params.slug}`
+            },
             ],
         }
     },
