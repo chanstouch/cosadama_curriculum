@@ -1,7 +1,5 @@
 # COSADAMA Curriculum
 
-<center>![Curriculum Site Image](./static/og_image.png)</center>
-
 ## Install Dependencies
 
 ```bash
