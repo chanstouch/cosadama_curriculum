@@ -1,7 +1,10 @@
 <template>
     <div class="w-full bg-slate-50">
         <div class="max-w-4xl mx-auto flex justify-center">
-            <div class="py-2 md:py-3.5 text-slate-500 text-xs md:text-sm">오픈을 위해 열심히 준비 중입니다. 조금만 더 기다려주세요.</div>
+            <div class="py-2 md:py-3 text-slate-500 text-xs md:text-sm"> 
+                <span class="text-sm md:text-base">🤓</span> 아직 커리큘럼 수정 중이랍니다. 3월에 만나요! <span class="text-sm md:text-base">👋🏻</span>
+                <div class="ml-3 px-2 py-1.5 border rounded hidden md:inline wargning-button border-slate-300 hover:shadow-sm hover:border-slate-400 transition hover:duration-300"> <a href="https://github.com/Team-COSADAMA/2021-Curriculum">작년 커리큘럼 보기</a> </div> 
+            </div>
         </div>
     </div>
 </template>
@@ -13,5 +16,7 @@
 </script>
 
 <style scoped>
-
+.wargning-button {
+    font-size: 0.797rem;
+}
 </style>

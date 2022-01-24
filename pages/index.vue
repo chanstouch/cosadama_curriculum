@@ -1,5 +1,6 @@
 <template>
 <div>
+  <Warning />
   <div class="w-full bg-gradient-to-r from-slate-300 via-blue-200 to-slate-50">
       <Header />
       <div class="max-w-6xl py-20 md:py-28 px-5 md:px-20 mx-auto">
