@@ -6,7 +6,7 @@
       <div class="max-w-6xl py-20 md:py-28 px-5 md:px-20 mx-auto">
         <div class="text-2xl text-center md:text-left text-slate-600 font-semibold mb-9 leading-9 drop-shadow-sm">중앙대 비전공자 코딩 커뮤니티, <br> 코사다마의 <span class="underline-offset-2">오픈소스 커리큘럼</span>이 <br> 업로드되는 공간입니다.</div>
         <div class="flex justify-center md:block md:justify-start">
-          <a href="https://www.blog.cosadama.com" target="blank" class="drop-shadow-sm py-2.5 px-3 bg-transparent text-slate-500 rounded-lg border border-slate-400 text-sm hover:bg-slate-100 transition duration-200">자세히 알아보기</a>
+          <a href="https://cosadama.com" target="blank" class="drop-shadow-sm py-2.5 px-3 bg-transparent text-slate-500 rounded-lg border border-slate-400 text-sm hover:bg-slate-100 transition duration-200">자세히 알아보기</a>
         </div>
       </div>
   </div>
