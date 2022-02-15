@@ -548,7 +548,7 @@ async asyncData({ $content, params }) {
             {
             hid: 'og:url',
             name: 'og:url',
-            content: `https://www.blog.penielcho.com/${this.currititle}/${this.$route.params.slug}`
+            content: `https://www.curriculum.cosadama.com/${this.currititle}/${this.$route.params.slug}`
             },
             ],
         }
