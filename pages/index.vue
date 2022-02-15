@@ -19,7 +19,7 @@
   <div class="z-10 w-full h-full bg-gradient-to-t from-zinc-800 absolute bottom-0">
   <div class="z-40 absolute bottom-0 w-full">
     <div class="max-w-6xl px-5 mx-auto text-white drop-shadow-lg pb-7 md:pb-16">
-      <div class="text-2xl md:text-3xl font-medium pb-3">커리큘럼은 코사다마가, <br class="inline md:hidden"> 공부는 스스로!</div>
+      <div class="text-2xl md:text-3xl font-semibold pb-3">커리큘럼은 코사다마가, <br class="inline md:hidden"> 공부는 스스로!</div>
       <div class="text-slate-300 keep-all text-sm md:text-base">오롯이 본인이 배움의 속도를 조절하세요. <br class="hidden md:inline"> 힘이 넘칠 때는 빠르게, 지칠 때는 조금씩 쉬어가도 좋습니다.</div>
     </div>
   </div>
