@@ -1,8 +1,11 @@
 <template>
 <div class="w-full">
+
+  <Warning />
+
   <HeaderAlt />
-  <!-- <Warning />
-  <div class="w-full bg-gradient-to-r from-slate-300 via-blue-200 to-slate-50">
+
+  <!-- <div class="w-full bg-gradient-to-r from-slate-300 via-blue-200 to-slate-50">
       <Header />
       <div class="max-w-6xl py-20 md:py-28 px-5 md:px-20 mx-auto">
         <div class="text-2xl text-center md:text-left text-slate-600 font-semibold mb-9 leading-9 drop-shadow-sm">중앙대 비전공자 코딩 커뮤니티, <br> 코사다마의 <span class="underline-offset-2">오픈소스 커리큘럼</span>이 <br> 업로드되는 공간입니다.</div>
