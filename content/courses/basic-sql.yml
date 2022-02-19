@@ -2,7 +2,7 @@ name: 'SQL 기초'
 description: ''
 authors: ['이정윤', '정찬']
 slug: 'basic-sql'
-image: 'not-ready.png'
+image: 'basic-sql.png'
 order: 5
 category: [
   ''
