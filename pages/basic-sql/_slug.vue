@@ -421,7 +421,7 @@ export default {
     },
 async asyncData({ $content, params }) {
 // 여기(curriculumName)를 수정해주면 돼요!
-        const curriculumName = 'intro-ds';
+        const curriculumName = 'basic-sql';
 
         const curriname = await $content(curriculumName, params.slug)
         .fetch();
@@ -549,7 +549,7 @@ async asyncData({ $content, params }) {
             {
             hid: 'og:url',
             name: 'og:url',
-            content: `https://www.blog.penielcho.com/${this.currititle}/${this.$route.params.slug}`
+            content: `https://www.curriculum.cosadama.com/${this.currititle}/${this.$route.params.slug}`
             },
             ],
         }
