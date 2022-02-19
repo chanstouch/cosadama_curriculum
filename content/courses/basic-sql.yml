@@ -1,8 +1,8 @@
-name: ''
+name: 'SQL 기초'
 description: ''
-authors: ['', '']
-slug: ''
-image: ''
+authors: ['이정윤', '정찬']
+slug: 'basic-sql'
+image: 'not-ready.png'
 order: 5
 category: [
   ''
