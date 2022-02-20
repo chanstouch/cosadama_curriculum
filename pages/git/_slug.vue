@@ -508,7 +508,7 @@ async asyncData({ $content, params }) {
 
     head() {
         return {
-            title: this.curriname.title,
+            title: `${this.curriname.title} | COSADAMA Curriculum`,
             htmlAttrs: {
             lang: 'ko'
             },
@@ -528,7 +528,7 @@ async asyncData({ $content, params }) {
             {
             hid: 'og:title',
             property: 'og:title',
-            content: this.curriname.title
+            content: `${this.curriname.title} | COSADAMA Curriculum`
             },
             {
             hid: 'og:image',
