@@ -160,7 +160,7 @@
         </div>
 
         <div class="pt-3.5 text-sm text-slate-400">커리 개발: {{currilist[0]["authors"][0]}} {{currilist[0]["authors"][1]}} {{currilist[0]["authors"][2]}} {{currilist[0]["authors"][3]}}</div>
-
+        <div class="pt-2 text-sm text-slate-400">검수: {{currilist[0]["testers"][0]}} {{currilist[0]["testers"][1]}} {{currilist[0]["testers"][2]}} {{currilist[0]["testers"][3]}}</div>
     </div>
 
     <div class="w-full">
@@ -361,7 +361,8 @@
 
                     </div>
 
-                    <div class="pt-3.5 text-sm text-slate-400 mb-10">커리 개발: {{currilist[0]["authors"][0]}} {{currilist[0]["authors"][1]}} {{currilist[0]["authors"][2]}} {{currilist[0]["authors"][3]}}</div>
+                    <div class="pt-3.5 text-sm text-slate-400">커리 개발: {{currilist[0]["authors"][0]}} {{currilist[0]["authors"][1]}} {{currilist[0]["authors"][2]}} {{currilist[0]["authors"][3]}}</div>
+                    <div class="pt-2 text-sm text-slate-400 mb-10">검수: {{currilist[0]["testers"][0]}} {{currilist[0]["testers"][1]}} {{currilist[0]["testers"][2]}} {{currilist[0]["testers"][3]}}</div>
                 </div>
 
             </aside>
@@ -373,7 +374,7 @@
             <p class="custom-text leading-normal mb-6 text-base md:text-lg text-slate-600 font-medium">{{curriname.category}} > {{curriname.slug}}. {{curriname.title}}</p>
             <p class="custom-text leading-normal mb-8 text-2xl md:text-3xl text-slate-800 font-semibold">{{curriname.title}}</p>
 
-            <nuxt-content :document="curriname" class="prose max-w-5xl custom-text"/>
+            <nuxt-content :document="curriname" class="prose prose-quoteless max-w-5xl custom-text"/>
 
             <div class="text-right mt-8 mb-6 px-2 text-xs md:text-sm text-slate-400">
                 마지막으로 업데이트 된 날짜: <br class="block md:hidden" /> {{formatDate(curriname.updatedAt)}}
@@ -566,5 +567,8 @@ code::before {
 }
 code::after {
     content: none !important;
+}
+img{
+    margin: auto;
 }
 </style>
