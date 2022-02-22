@@ -1,7 +1,7 @@
 <template>
 <div class="flex">
 
-    <div class="hidden md:block w-80 min-w-max py-10 px-8 border-r border-slate-600 min-h-screen">
+    <div class="hidden md:block min-w-fit max-w-max py-10 px-8 border-r border-slate-600 min-h-screen">
 
         <div class="font-semibold text-slate-600 text-xl mb-4">{{currilist[0]["name"]}}</div>
 
@@ -570,5 +570,13 @@ code::after {
 }
 img{
     margin: auto;
+}
+.iframe .ytp-cued-thumbnail-overlay{
+    height: 100%;
+    height: max-content;
+}
+.iframe{
+    height: 100%;
+    height: max-content;
 }
 </style>
