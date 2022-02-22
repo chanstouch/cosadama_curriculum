@@ -6,8 +6,8 @@
             <div class="justify-around md:justify-start px-8 md:px-0 items-start flex">
                 <ul class="w-25 md:w-36 md:ml-0 md:m-0">
                     <li class="mb-3 font-medium text-gray-300">코사다마</li>
-                    <li class="mb-1.5 font-normal text-gray-500 hover:underline"><nuxt-link :to="{path: '/about'}" replace>소개</nuxt-link></li>
-                    <li class="mb-1.5 font-normal text-gray-500 hover:underline"> <nuxt-link :to="{path: '/recruit'}" replace>영입</nuxt-link> </li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline"><a href="https://cosadama.com/about/">소개</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline"> <a href="https://cosadama.com/recruit/">영입</a> </li>
                 </ul>
 
                 <ul class="w-25 md:w-36 md:ml-0 md:m-0">
