@@ -4,4 +4,7 @@ authors: ['김민석', '신윤진', '송혜민']
 slug: scrapy
 image: scrapy.png
 order: 3
-category: ["1. Scrapy"]
+category: [
+  "0. 추천 학습 가이드",
+  "1. Scrapy"
+  ]

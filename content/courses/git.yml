@@ -6,6 +6,7 @@ slug: git
 image: git.png
 order: 4
 category: [
+  "0. 추천 학습 가이드",
   "1. Git 환경 세팅",
   "2. Git 기본 개념",
   "3. Git CLI 명령어",

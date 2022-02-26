@@ -5,6 +5,7 @@ slug: 'basic-sql'
 image: 'basic-sql.png'
 order: 5
 category: [
+  "0. 추천 학습 가이드",
   "1. SQL 시작하기",
   "2. SQL 조작하기",
   "3. 실전 데이터 분석 프로젝트",

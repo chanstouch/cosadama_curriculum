@@ -4,4 +4,7 @@ authors: ['정찬', '송혜민', '김윤진']
 slug: intro-ds
 image: intro-ds.png
 order: 2
-category: ["1. Pandas"]
+category: [
+  "0. 추천 학습 가이드",
+  "1. Pandas"
+  ]
