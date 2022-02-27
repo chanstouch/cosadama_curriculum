@@ -116,7 +116,7 @@
             <div v-else>
                 <div class="font-medium text-slate-600 text-lg mb-2.5">{{cat_8}}</div>
 
-                <div v-for='list of list_2' :key="list" class="pl-5">
+                <div v-for='list of list_8' :key="list" class="pl-5">
                         <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                         <div class="group">
                             <div class="keep-all text-slate-600 text mb-2 group-hover:text-blue-500 transition duration-200">
@@ -318,7 +318,7 @@
                         <div v-else>
                             <div class="font-medium text-slate-600 mb-2.5">{{cat_8}}</div>
 
-                            <div v-for='list of list_2' :key="list" class="pl-5">
+                            <div v-for='list of list_8' :key="list" class="pl-5">
                                     <nuxt-link :to="{path: `/${currititle}/${list.slug}`}" replace>
                                     <div class="group">
                                         <div class="keep-all text-slate-600 text-sm mb-2 group-hover:text-blue-500 transition duration-200">
